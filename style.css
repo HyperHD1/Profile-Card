@@ -1,0 +1,84 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+}
+
+#background{
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right top, left bottom;
+    background-attachment: fixed;   
+    background-color: hsl(185, 75%, 39%);
+    background-size: cover cover;
+    background-blend-mode:color-dodge;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+}   
+p{
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(229, 23%, 23%);
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.container{
+    border-radius: 15px;
+    width: 350px;
+    background-color: white;
+}
+.pic{
+    background-image: url("images/bg-pattern-card.svg");
+    padding-top: 90px;
+    background-repeat: no-repeat;
+    display: flex;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.pp{
+    border-radius: 100px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.name{
+    font-weight: bold;
+    text-align: center;
+    margin-left: 120px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.age{
+    font-weight: normal;
+    color: hsl(227, 10%, 46%);
+    margin-left: 2px;
+}
+.location{
+    display: block;
+    color: hsl(227, 10%, 46%);
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.line{
+    height:0.1px;
+    border-width:0;
+    width: 350px;
+    background-color:hsl(0, 0%, 88%);
+    margin-bottom: 20px;
+}
+.stat1{
+    font-weight: bold;
+    width: 30px;
+    margin-left: 60px;
+    text-align: center;
+    margin-bottom: 20px ;
+}
+.stat2{
+    font-weight: normal;
+    font-size: 10px;
+    color: hsl(0, 0%, 59%);
+
+}
